@@ -19,11 +19,11 @@
 
         public void DisplayAccessModifiers()
         {
-            Console.WriteLine("\nAccess Modifier Matrix:");
-            Console.WriteLine($"Public    : {PublicValue}    - Accessible everywhere");
-            Console.WriteLine($"Private   : {PrivateValue}   - Accessible only within the same class");
-            Console.WriteLine($"Protected : {ProtectedValue} - Accessible within the same class and derived classes");
-            Console.WriteLine($"Internal  : {InternalValue}  - Accessible within the same assembly");
+            Console.WriteLine("\nAccess Modifier Matrix:"); 
+            Console.WriteLine($"Public    : {PublicValue}");     // Accessible everywhere
+            Console.WriteLine($"Private   : {PrivateValue} ");   // Accessible only within the same class
+            Console.WriteLine($"Protected : {ProtectedValue} "); // Accessible within the same class and derived classes
+            Console.WriteLine($"Internal  : {InternalValue} ");  // Accessible within the same assembly
         }
     }
 }
